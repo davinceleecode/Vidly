@@ -30,7 +30,7 @@ namespace Vidly.Controllers
         }
 
 
-        // GET: Customers/Details/id
+        // GET: Customers/Details/1
         public ActionResult Details(int Id)
         {
             var customer = _context.Customers.SingleOrDefault(c => c.Id == Id);
