@@ -122,3 +122,5 @@ C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.pdb
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingNameInMembershipType.resources
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateExistingRecordsInMembershipTypes.resources
+C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingBirthDateInCustomer.resources
+C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrations.ChangeNameToBirthdateInCustomer.resources
