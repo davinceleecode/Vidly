@@ -124,3 +124,6 @@ C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrat
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateExistingRecordsInMembershipTypes.resources
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingBirthDateInCustomer.resources
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrations.ChangeNameToBirthdateInCustomer.resources
+C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrations.AdditionalFieldsForMovie.resources
+C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingGenreTableAndAssociateItToMovieModel.resources
+C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrations.populateGenreTable.resources
