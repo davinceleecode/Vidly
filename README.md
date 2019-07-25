@@ -1,5 +1,5 @@
 # Vidly Website Tutorial by Mosh Hamedani
-This website supposed to be used to Video Rental Stores. By creating this website you can learn a lot of things especially for the begginers that are using ASP.Net MVC.
+This website supposed to be used for Video Rental Stores. By creating this website you can learn a lot of things, especially for the beginners that are using ASP.Net MVC.
 
 <b>ASP.NET MVC Fundamentals</b>
  - Action Results
