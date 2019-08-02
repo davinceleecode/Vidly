@@ -111,15 +111,11 @@ C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\bin\Microsoft.Owin.Sec
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.csprojResolveAssemblyReference.cache
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModelforce.resources
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubscibedToCustomer.resources
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMemberShipType.resources
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
-C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.Cache
-C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.dll
-C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.pdb
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingNameInMembershipType.resources
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateExistingRecordsInMembershipTypes.resources
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingBirthDateInCustomer.resources
@@ -127,3 +123,6 @@ C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrat
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrations.AdditionalFieldsForMovie.resources
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingGenreTableAndAssociateItToMovieModel.resources
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrations.populateGenreTable.resources
+C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.Cache
+C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.dll
+C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.pdb

@@ -11,7 +11,7 @@ namespace Vidly.Models
         public int Id { get; set; }
 
 
-        [Required]
+        [Required(ErrorMessage = "Name field is required. Please input Name")]
         [StringLength(255)]
         public string Name { get; set; }
 
@@ -27,6 +27,9 @@ namespace Vidly.Models
         [Display(Name = "Date of Birth")]
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:MM/dd/yyyy}")]
+
+
+        [Min18YearsIfAMember]
         public DateTime? Birthdate { get; set; }
     }
 }
