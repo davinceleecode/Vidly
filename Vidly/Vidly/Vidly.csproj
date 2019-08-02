@@ -215,6 +215,10 @@
     <Compile Include="Migrations\201907250923582_populateGenreTable.Designer.cs">
       <DependentUpon>201907250923582_populateGenreTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201908021529416_ChangingEntitiesToRequired.cs" />
+    <Compile Include="Migrations\201908021529416_ChangingEntitiesToRequired.Designer.cs">
+      <DependentUpon>201908021529416_ChangingEntitiesToRequired.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -343,6 +347,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201907250923582_populateGenreTable.resx">
       <DependentUpon>201907250923582_populateGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908021529416_ChangingEntitiesToRequired.resx">
+      <DependentUpon>201908021529416_ChangingEntitiesToRequired.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

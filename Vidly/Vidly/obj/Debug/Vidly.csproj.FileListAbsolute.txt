@@ -126,3 +126,5 @@ C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrat
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.Cache
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.pdb
+C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.csprojResolveAssemblyReference.cache
+C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\obj\Debug\Vidly.Migrations.ChangingEntitiesToRequired.resources
