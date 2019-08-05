@@ -1,0 +1,13 @@
+bin/
+*.exe
+*.o
+*.so
+*.suo
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
