@@ -133,3 +133,4 @@ C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\bin\System.Web.Http.dl
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\bin\System.Web.Http.WebHost.dll
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\bin\System.Net.Http.Formatting.xml
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
+C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\bin\System.Web.Http.xml
