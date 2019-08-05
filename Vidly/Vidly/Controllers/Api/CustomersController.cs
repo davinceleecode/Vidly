@@ -18,10 +18,12 @@ namespace Vidly.Controllers.Api
         }
 
         // GET /api/customers
+        [HttpGet]
         public IEnumerable<Customer> GetCustomers()
         {
             return _context.Customers.ToList();
         }
+
 
         // GET /api/customers/1
         public Customer GetCustomer(int id)
