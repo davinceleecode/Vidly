@@ -28,7 +28,7 @@ namespace Vidly.Controllers.Api
 
 
         // GET /api/customers/1
-
+        [HttpGet]
         public IHttpActionResult GetCustomer(int id, string me)
         {
 
