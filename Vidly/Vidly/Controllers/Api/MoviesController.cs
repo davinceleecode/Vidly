@@ -62,7 +62,6 @@ namespace Vidly.Controllers.Api
             movieInDB.GenreId = movie.GenreId;
             movieInDB.NumberInStock = movie.NumberInStock;
             movieInDB.ReleaseDate = movie.ReleaseDate;
-
             _context.SaveChanges();
             return Ok();
         }
