@@ -134,3 +134,5 @@ C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\bin\System.Web.Http.We
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\bin\System.Net.Http.Formatting.xml
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
 C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\bin\System.Web.Http.xml
+C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\bin\AutoMapper.dll
+C:\Users\vincent.lee.c.flores\Desktop\WebXite\Vidly\Vidly\bin\AutoMapper.xml
