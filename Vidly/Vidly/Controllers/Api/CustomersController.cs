@@ -23,13 +23,14 @@ namespace Vidly.Controllers.Api
         [HttpGet]
         public IEnumerable<CustomerDto> GetCustomers()
         {
+            var customer = _context.Customers.ToList();
             return _context.Customers.ToList().Select(Mapper.Map<Customer, CustomerDto>);
         }
 
 
         // GET /api/customers/1
         [HttpGet]
-        public IHttpActionResult GetCustomer(int id, string me)
+        public IHttpActionResult GetCustomer(int id)
         {
 
             var customer = _context.Customers.SingleOrDefault(c => c.Id == id);
@@ -58,33 +59,35 @@ namespace Vidly.Controllers.Api
 
         // PUT /api/customers/1
         [HttpPut]
-        public void UpdateCustomer(int id, CustomerDto customerDto)
+        public IHttpActionResult UpdateCustomer(int id, CustomerDto customerDto)
         {
             if (!ModelState.IsValid)
-                throw new HttpResponseException(HttpStatusCode.BadRequest);
+                return BadRequest();//throw new HttpResponseException(HttpStatusCode.BadRequest);
 
             var customerInDb = _context.Customers.SingleOrDefault(c => c.Id == id);
 
             if (customerInDb == null)
-                throw new HttpResponseException(HttpStatusCode.NotFound);
-
+                return NotFound(); //throw new HttpResponseException(HttpStatusCode.NotFound);
 
 
             Mapper.Map(customerDto, customerInDb);
             _context.SaveChanges();
+
+            return Ok();
         }
 
         //DELETE /api/customers/1
         [HttpDelete]
-        public void DeleteCustomer(int id)
+        public IHttpActionResult DeleteCustomer(int id)
         {
             var customerInDb = _context.Customers.SingleOrDefault(c => c.Id == id);
 
             if (customerInDb == null)
-                throw new HttpResponseException(HttpStatusCode.NotFound);
+                return NotFound();//throw new HttpResponseException(HttpStatusCode.NotFound);
 
             _context.Customers.Remove(customerInDb);
             _context.SaveChanges();
+            return Ok();
         }
     }
 }

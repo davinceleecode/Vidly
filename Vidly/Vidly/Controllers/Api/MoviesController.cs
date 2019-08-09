@@ -19,36 +19,38 @@ namespace Vidly.Controllers.Api
         }
 
         [HttpGet]
-        public IEnumerable<Movie> GetMovies()
+        public IEnumerable<MovieDto> GetMovies()
         {
-            return _context.Movies.ToList();
+            return _context.Movies.ToList().Select(Mapper.Map<Movie, MovieDto>);
         }
 
         [HttpGet]
-        public Movie GetMovie(int id)
+        public IHttpActionResult GetMovie(int id)
         {
             var movie = _context.Movies.SingleOrDefault(m => m.Id == id);
 
             if (movie == null)
                 throw new HttpResponseException(HttpStatusCode.NotFound);
 
-            return movie;
+            return Ok(Mapper.Map<Movie, MovieDto>(movie));
         }
 
         [HttpPost]
-        public Movie CreateMovie(Movie movie)
+        public IHttpActionResult CreateMovie(MovieDto movieDto)
         {
             if (!ModelState.IsValid)
                 throw new HttpResponseException(HttpStatusCode.BadRequest);
 
+            var movie = Mapper.Map<MovieDto, Movie>(movieDto);
             _context.Movies.Add(movie);
             _context.SaveChanges();
 
-            return movie;
+            movieDto.Id = movie.Id;
+            return Created(new Uri(Request.RequestUri + "/" + movieDto.Id), movieDto);
         }
 
         [HttpPut]
-        public IHttpActionResult UpdateMovie(int id, Movie movie)
+        public IHttpActionResult UpdateMovie(int id, MovieDto movieDto)
         {
             if (!ModelState.IsValid)
                 return BadRequest();
@@ -58,10 +60,7 @@ namespace Vidly.Controllers.Api
             if (movieInDB == null)
                 return NotFound();
 
-            movieInDB.Name = movie.Name;
-            movieInDB.GenreId = movie.GenreId;
-            movieInDB.NumberInStock = movie.NumberInStock;
-            movieInDB.ReleaseDate = movie.ReleaseDate;
+            Mapper.Map(movieDto, movieInDB);
             _context.SaveChanges();
             return Ok();
         }
