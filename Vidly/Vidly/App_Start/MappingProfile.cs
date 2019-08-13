@@ -12,8 +12,18 @@ namespace Vidly.App_Start
     {
         public MappingProfile()
         {
-            Mapper.CreateMap<Customer, CustomerDto>().ReverseMap();
-            Mapper.CreateMap<MovieDto, Movie>().ReverseMap();
+            // Domain to Dto
+            Mapper.CreateMap<Customer, CustomerDto>();
+            Mapper.CreateMap<Movie, MovieDto>().ReverseMap();
+            Mapper.CreateMap<MembershipType, MembershipTypeDto>();
+
+
+            // Dto to Domain
+            Mapper.CreateMap<CustomerDto, Customer>()
+                .ForMember(c => c.Id, opt => opt.Ignore());
+
+            Mapper.CreateMap<MovieDto, Movie>()
+                .ForMember(c => c.Id, opt => opt.Ignore());
         }
     }
 }
