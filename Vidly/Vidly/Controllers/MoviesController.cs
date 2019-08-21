@@ -45,6 +45,7 @@ namespace Vidly.Controllers
             var genres = _context.Genres.ToList();
             var viewModel = new MoviesViewModel
             {
+                Movie = new Movie(),
                 Genres = genres
             };
             ViewBag.Title = "New Movies";

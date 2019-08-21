@@ -185,6 +185,7 @@
     <Compile Include="Controllers\MoviesController.cs" />
     <Compile Include="Controllers\NewCustomerViewModel.cs" />
     <Compile Include="Dtos\CustomerDto.cs" />
+    <Compile Include="Dtos\GenreDto.cs" />
     <Compile Include="Dtos\MembershipTypeDto.cs" />
     <Compile Include="Dtos\MovieDto.cs" />
     <Compile Include="Global.asax.cs">
@@ -242,9 +243,15 @@
     <Compile Include="Migrations\201908021529416_ChangingEntitiesToRequired.Designer.cs">
       <DependentUpon>201908021529416_ChangingEntitiesToRequired.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201908211459505_ChangeOfColumnProperties.cs" />
+    <Compile Include="Migrations\201908211459505_ChangeOfColumnProperties.Designer.cs">
+      <DependentUpon>201908211459505_ChangeOfColumnProperties.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\CustomRequiredMovieInStock.cs" />
+    <Compile Include="Models\CustomRequiredMovieReleaseDate.cs" />
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -549,6 +556,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201908021529416_ChangingEntitiesToRequired.resx">
       <DependentUpon>201908021529416_ChangingEntitiesToRequired.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908211459505_ChangeOfColumnProperties.resx">
+      <DependentUpon>201908211459505_ChangeOfColumnProperties.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
