@@ -10,6 +10,7 @@
 {
     @Html.ValidationSummary(true, "Please fix the following errors.")
     <div class="form-group">
+
         @Html.LabelFor(m => m.Movie.Name)
         @Html.TextBoxFor(m => m.Movie.Name, new { @class = "form-control" })
         @Html.ValidationMessageFor(m => m.Movie.Name)
@@ -29,8 +30,9 @@
         @Html.TextBoxFor(m => m.Movie.NumberInStock, new { @class = "form-control" })
         @Html.ValidationMessageFor(m => m.Movie.NumberInStock)
     </div>
-    @Html.AntiForgeryToken()
+    
     @Html.HiddenFor(m => m.Movie.Id)
+    @Html.AntiForgeryToken()
     <button type="submit" class="btn btn-primary">Save</button>
 }
 
